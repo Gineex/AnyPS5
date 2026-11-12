@@ -13,6 +13,19 @@
 #include "prx/libSceFreeTypeOt/include/System.hpp"
 
 extern "C" {
+int APS5_VABI FT_GlyphLoader_CheckPoints_nid_postfix();
+int APS5_VABI FT_TrueTypeGX_Validate_nid_postfix();
+int APS5_VABI FT_TrueTypeGX_Free_nid_postfix();
+int APS5_VABI FT_OpenType_Free_nid_postfix();
+int APS5_VABI FT_GlyphLoader_Reset_nid_postfix();
+int APS5_VABI FT_GlyphLoader_CheckSubGlyphs_nid_postfix();
+int APS5_VABI FT_GlyphLoader_New_nid_postfix();
+int APS5_VABI FT_GlyphLoader_Add_nid_postfix();
+int APS5_VABI FT_GlyphLoader_Prepare_nid_postfix();
+int APS5_VABI FT_GlyphLoader_CreateExtra_nid_postfix();
+int APS5_VABI FT_GlyphLoader_CopyPoints_nid_postfix();
+int APS5_VABI ft_module_get_service_nid_postfix();
+int APS5_VABI FT_GlyphLoader_Done_nid_postfix();
 int APS5_VABI FT_Glyph_Stroke_nid_postfix();
 int APS5_VABI FT_New_GlyphSlot_nid_postfix();
 int APS5_VABI FT_Set_Debug_Hook_nid_postfix();

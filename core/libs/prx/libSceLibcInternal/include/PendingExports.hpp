@@ -3,6 +3,12 @@
 #include "SceTypes.hpp"
 
 extern "C" {
+int APS5_VABI _Plsw_nid_postfix();
+int APS5_VABI _FPmsw_nid_postfix();
+int APS5_VABI _LPlsw_nid_postfix();
+int APS5_VABI _FPlsw_nid_postfix();
+int APS5_VABI _LPmsw_nid_postfix();
+int APS5_VABI _Pmsw_nid_postfix();
 
 int APS5_VABI _ZNKSt8ios_base7failure8_DoraiseEv_nid_postfix();
 int APS5_VABI _ZNKSt8messagesIcE3getEiiiRKSs_nid_postfix();
